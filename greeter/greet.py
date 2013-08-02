@@ -1,7 +1,6 @@
 #!/usr/local/bin/python2.7
 # encoding: utf-8
 '''
-greeter.greet - A simple greeter script
 greeter.greet is a simple greeter script which greets the script 
 executioner by the name he passes to the script as argument
 
@@ -26,10 +25,10 @@ from argparse import RawDescriptionHelpFormatter
 __all__ = []
 __version__ = 0.1
 __date__ = '2013-07-22'
-__updated__ = '2013-07-28'
+__updated__ = '2013-08-02'
 
 DEBUG = 0
-TESTRUN = 0
+TESTRUN = 1
 PROFILE = 0
 
 class CLIError(Exception):
@@ -62,7 +61,7 @@ def main(argv=None): # IGNORE:C0111
     program_license = '''%s
 
   Created by Vipin Nambiar on %s.
-  Copyright 2013 organization_name. All rights reserved.
+  Copyright 2013 Zeomega. All rights reserved.
   
   Licensed under the Apache License 2.0
   http://www.apache.org/licenses/LICENSE-2.0
