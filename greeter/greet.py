@@ -1,8 +1,7 @@
 #!/usr/local/bin/python2.7
 # encoding: utf-8
 '''
-greeter.greet is a simple greeter script which greets the script 
-executioner by the name he passes to the script as argument
+greeter.greet is a simple greeter script which greets the script executioner by the name he passes to the script as argument
 
 It defines a method greet which takes a name argument with default as "World"
 
