@@ -6,6 +6,7 @@
 # Packages
 *.egg
 *.egg-info
+*.settings/
 dist
 build
 eggs
@@ -33,3 +34,6 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+.pylintrc
+.git/
