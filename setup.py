@@ -12,4 +12,5 @@ setup(
     classifiers=[
         'Programming Language :: Python :: 2.7',
     ],
+    entry_points={ 'console_scripts' : ['greet = Greeter.greet:main',] }
 )
