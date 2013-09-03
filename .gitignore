@@ -36,4 +36,4 @@ nosetests.xml
 .pydevproject
 
 .pylintrc
-.git/dist
+.git/
