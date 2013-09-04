@@ -10,7 +10,7 @@ setup(
     license='Apache License 2.0',
     long_description=long_description,
     package_data={ 
-                  '': ['README*', 'LICENSE*', '*.txt', '*.rst'], 
+                  '': ['README*', 'LICENSE', '*.txt', '*.rst'], 
                   },
     classifiers=[
         'Programming Language :: Python :: 2.7',
