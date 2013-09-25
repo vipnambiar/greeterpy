@@ -80,7 +80,8 @@ USAGE
         # Setup argument parser
         parser = ArgumentParser(description=program_license, formatter_class=RawDescriptionHelpFormatter)
         parser.add_argument('-V', '--version', action='version', version=program_version_message)
-        parser.add_argument("-n", '--name', dest="name", help="The name of the person to greet [default: %(default)s]", default="World")
+        parser.add_argument("-n", '--name', dest="name", help="The name of the person to greet [default: %(default)s]",
+                            default="World")
 
         
         # Process arguments
