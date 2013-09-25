@@ -30,22 +30,27 @@ DEBUG = 0
 TESTRUN = 1
 PROFILE = 0
 
+
 class CLIError(Exception):
-    '''Generic exception to raise and log different fatal errors.'''
+    """ Generic exception to raise and log different fatal errors. """
     def __init__(self, msg):
         super(CLIError).__init__(type(self))
         self.msg = "E: %s" % msg
+
     def __str__(self):
         return self.msg
+
     def __unicode__(self):
         return self.msg
+
 
 def greet(name="World"):
     print "Hello %s!" % name
     return 0
-    
+
+
 def main(argv=None): # IGNORE:C0111
-    '''Command line options.'''
+    """Command line options."""
     
     if argv is None:
         argv = sys.argv
